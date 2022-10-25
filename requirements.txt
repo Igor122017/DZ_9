@@ -1,0 +1,2 @@
+python-tictactoe == 0.0.7
+numpy == 1.23.4
