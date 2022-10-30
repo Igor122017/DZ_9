@@ -13,7 +13,7 @@ def game(board):
             if board.is_empty((g1, g2)):
                 board.push((g1, g2))
                 if board.result() == 1:
-                    print(f"\nПоздравляю!!! Выиграл  выиграл игрок начавший игру с крестика")
+                    print(f"\nПоздравляю!!! Выиграл игрок начавший игру с крестика")
                     print(board)
                     break
                 elif board.result() == 2:
